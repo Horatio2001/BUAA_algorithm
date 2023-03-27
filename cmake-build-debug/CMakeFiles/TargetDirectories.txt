@@ -1,0 +1,15 @@
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P0.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2022_1.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2022_2.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2021_1.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2021_2.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2019_1.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2019_2.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2019_3.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2019_4.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2018_1.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2018_2.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2017_1.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/P2017_2.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/horatio/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
