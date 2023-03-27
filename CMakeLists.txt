@@ -16,6 +16,9 @@ add_executable(P2018_1 2018/2018_1.cpp)
 add_executable(P2018_2 2018/2018_2.cpp)
 add_executable(P2017_1 2017/2017_1.cpp)
 add_executable(P2017_2 2017/2017_2.cpp)
+add_executable(P2017_3 2017/2017_3.cpp)
+add_executable(P2016_1 2016/2016_1.cpp)
+add_executable(P2016_2 2016/2016_2.cpp)
 
 
 
