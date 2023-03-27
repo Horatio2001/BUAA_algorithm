@@ -533,6 +533,68 @@ build P2016_2: CXX_EXECUTABLE_LINKER__P2016_2_Debug CMakeFiles/P2016_2.dir/2016/
   TARGET_FILE = P2016_2
   TARGET_PDB = P2016_2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target P2015_1
+
+
+#############################################
+# Order-only phony target for P2015_1
+
+build cmake_object_order_depends_target_P2015_1: phony || CMakeFiles/P2015_1.dir
+
+build CMakeFiles/P2015_1.dir/2015/2015_1.cpp.o: CXX_COMPILER__P2015_1_Debug /Users/horatio/CLionProjects/untitled/2015/2015_1.cpp || cmake_object_order_depends_target_P2015_1
+  DEP_FILE = CMakeFiles/P2015_1.dir/2015/2015_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/P2015_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/P2015_1.dir/2015
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P2015_1
+
+
+#############################################
+# Link the executable P2015_1
+
+build P2015_1: CXX_EXECUTABLE_LINKER__P2015_1_Debug CMakeFiles/P2015_1.dir/2015/2015_1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/P2015_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = P2015_1
+  TARGET_PDB = P2015_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target P2015_2
+
+
+#############################################
+# Order-only phony target for P2015_2
+
+build cmake_object_order_depends_target_P2015_2: phony || CMakeFiles/P2015_2.dir
+
+build CMakeFiles/P2015_2.dir/2015/2015_2.cpp.o: CXX_COMPILER__P2015_2_Debug /Users/horatio/CLionProjects/untitled/2015/2015_2.cpp || cmake_object_order_depends_target_P2015_2
+  DEP_FILE = CMakeFiles/P2015_2.dir/2015/2015_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/P2015_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/P2015_2.dir/2015
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P2015_2
+
+
+#############################################
+# Link the executable P2015_2
+
+build P2015_2: CXX_EXECUTABLE_LINKER__P2015_2_Debug CMakeFiles/P2015_2.dir/2015/2015_2.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/P2015_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = P2015_2
+  TARGET_PDB = P2015_2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -567,7 +629,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/horatio/CLionProjects/untitled/cmake-build-debug
 
-build all: phony P0 P2022_1 P2022_2 P2021_1 P2021_2 P2019_1 P2019_2 P2019_3 P2019_4 P2018_1 P2018_2 P2017_1 P2017_2 P2017_3 P2016_1 P2016_2
+build all: phony P0 P2022_1 P2022_2 P2021_1 P2021_2 P2019_1 P2019_2 P2019_3 P2019_4 P2018_1 P2018_2 P2017_1 P2017_2 P2017_3 P2016_1 P2016_2 P2015_1 P2015_2
 
 # =============================================================================
 # Built-in targets
