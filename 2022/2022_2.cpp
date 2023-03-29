@@ -2,9 +2,9 @@
 // Created by Horatio on 2023/3/25.
 //
 #include<iostream>
-#include<stdio.h>
-#include<string>
-#include<stdlib.h>
+#include<cstdio>
+#include<cstring>
+#include<cstdlib>
 #include <unordered_map>
 
 char input[500];
@@ -15,13 +15,15 @@ int charAt = 0;
 std::unordered_map<char, double> myMap;
 int waitTop = 0;
 
-void A();
+void unary();
 
-void B();
+void primaryExp();
 
 void expr();
 
-void B() {
+
+// primaryExp--> '(' exp ')' | ident | number
+void primaryExp() {
     if (input[charAt] == '(') {
         charAt++;
         expr();
@@ -41,16 +43,16 @@ void B() {
         topStack++;
     }
 }
-
-void A() {
-    B();
+//a --> primaryExp {* /} primaryExp
+void unary() {
+    primaryExp();
     while (true) {
-        if (!(input[charAt] == '*' || input[charAt] == '/' || input[charAt]=='+' || input[charAt]=='-')) {
+        if (!(input[charAt] == '*' || input[charAt] == '/')) {
             return;
         }
         char c = input[charAt];
         charAt++;
-        B();
+        primaryExp();
         if (c == '*') {
             stack[topStack - 2] = stack[topStack - 2] * stack[topStack - 1];
             stack[topStack - 1] = 0;
@@ -64,14 +66,14 @@ void A() {
 }
 
 void expr() {
-    A();
+    unary();
     while(true) {
         if (!(input[charAt]=='+' || input[charAt]=='-')) {
             return;
         }
         char c = input[charAt];
         charAt++;
-        A();
+        unary();
         if (c == '+') {
             stack[topStack - 2] = stack[topStack - 2] + stack[topStack - 1];
             stack[topStack - 1] = 0;
